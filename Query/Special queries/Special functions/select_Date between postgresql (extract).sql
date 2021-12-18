@@ -1,0 +1,1 @@
+select extract(day from date(now())::timestamp - '2021-07-23'::timestamp);

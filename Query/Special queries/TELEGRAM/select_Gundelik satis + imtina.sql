@@ -1,0 +1,1 @@
+concat('Imtina_sayi = ',count(ap.oid) ,';  Imtina_m?bl?g = ' ,cast(coalesce(sum(pl.amount),0) as decimal(18,2)),' azn;')Gundelikimtina
